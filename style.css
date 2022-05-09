@@ -1,44 +1,47 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
-.heading {
-  font-size: 23px;
-  width: 100%;
-  margin: 0px;
-  box-shadow: 5px 5px 5px grey;
-  font-family: "DotGothic16", sans-serif;
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
 }
 
-.note {
-  font-size: 15px;
+.note{
+    font-size: 15px;
+    color: black;
 }
 
-.copyright_footer {
-  position: fixed;
-  color: white;
-  bottom: 0;
-  width: 100%;
-  background-color: grey;
-  line-height: 3;
-  text-align: center;
-  margin-top: 50px;
-}
-.copyright_footer a {
-  color: #0004ff;
-  font-family: "DotGothic16", monospace;
+body
+{
+background-size: cover;
 }
 
-canvas {
-  border: 5px dashed black;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px grey;
+.div_speed
+{
+float: left;
+}
+.div_speed_img
+{
+width: 200px;
+border-radius: 100px;
+}
+#speed
+{
+font-size: 23px;
+margin: 15px;
 }
 
-sm {
-  font-family: "DotGothic16", monospace;
+
+.div_volume
+{
+float: right;
 }
-.float-left{
-  float: left;
+.div_volume_img
+{
+width: 200px;
+border-radius: 100px;
 }
-div {
-  margin: 10px;
+#volume
+{
+font-size: 23px;
+margin: 15px;
 }
