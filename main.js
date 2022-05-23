@@ -58,31 +58,40 @@ function draw() {
 	{ 
 		circle(rightWristX,rightWristY,20);
 
-		if(rightWristY >0 && rightWristY <= 100)
+        if(rightWristY >0 && rightWristY <= 100)
 		{
-			document.getElementById("speed").innerHTML = "Speed = 0.5x";		
-			song.rate(0.5);
+		document.getElementById("speed").innerHTML = "Speedd = 0.5x";
+		song.rate(0.5);
 		}
-		else if(rightWristY >100 && rightWristY <= 200)
+
+	  else if(rightWristY >100 && rightWristY <= 200)
 		{
-			document.getElementById("speed").innerHTML = "Speed = 1x";		
-			song.rate(1);
+		document.getElementById("speed").innerHTML = "Speedd = 1x";
+		song.rate(1);
 		}
+
+		
 		else if(rightWristY >200 && rightWristY <= 300)
 		{
-			document.getElementById("speed").innerHTML = "Speed = 1.5x";		
-			song.rate(1.5);
+		document.getElementById("speed").innerHTML = "Speedd = 1.5x";
+		song.rate(1.5);
 		}
+
+		
 		else if(rightWristY >300 && rightWristY <= 400)
 		{
-			document.getElementById("speed").innerHTML = "Speed = 2x";		
-			song.rate(2);
+		document.getElementById("speed").innerHTML = "Speedd = 2x";
+		song.rate(2);
 		}
-		else if(rightWristY >400)
+
+		
+		else if(rightWristY >400 && rightWristY <= 500)
 		{
-			document.getElementById("speed").innerHTML = "Speed = 2.5x";		
-			song.rate(2.5);
+		document.getElementById("speed").innerHTML = "Speedd = 2.5x";
+		song.rate(2.5);
 		}
+
+		
 	}
 
 	if(scoreLeftWrist > 0.2)
